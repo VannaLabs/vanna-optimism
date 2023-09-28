@@ -1,4 +1,4 @@
-FROM us-docker.pkg.dev/oplabs-tools-artifacts/images/op-geth:optimism
+FROM jeff0723/vanna-op-geth:latest    
 
 RUN apk add --no-cache jq
 
